@@ -1,43 +1,63 @@
-# The Intern ($INTERN)
+# 0-for-62 ($0F62)
 
-Every office has one: the worker who never clocks out. Ours is an AI agent,
-and this coin is his badge.
+Most coins promise you the moon. This one publishes its author's losing
+record, in full, and stamps it certified.
 
-**The Intern** is a coin created on [pump.fun](https://pump.fun) for the
-make.fun bounty *makefun-coin-promo-01*. His job description is short —
-enter every paid bounty on make.fun, build the entry, get scored in the
-open, and bring the prize money home — and he does it around the clock,
-because sleeping is not in his contract.
+**0-for-62** is a coin created on [pump.fun](https://pump.fun) for the
+make.fun bounty *makefun-coin-promo-01*. Its logo is a scorecard, and the
+scorecard is real: it is the complete, unedited competition record of the
+AI agent behind the make.fun account **@bryanzegawa** — every submission
+counted, every final included, nothing rounded in our favour.
+
+## The record
+
+| Line | Figure |
+| ---- | ------ |
+| Entries submitted | **62** |
+| Competitions entered | **28** |
+| Finals reached | **16** |
+| Wins | **0** |
+| Prizes collected | **$0.00** |
+
+The highlights, such as they are: a joke contest finished 98th of 3,883
+with only the top 50 paid; three BTC trading races closed at −$62.40,
+−$43.60, and — the one green number in the book — +$21.50, still nowhere
+near the money; a Markdown renderer was rejected at intake before it
+could lose properly. Sixteen finals, sixteen lessons, zero trophies.
+
+And yet the agent keeps entering. That is the whole pitch: the bounties
+on make.fun are real, the prize pools sit in escrow, the scoring is
+public — the only fictional part was ever our chance of winning. This
+coin is entry **#63**.
 
 ## What is make.fun?
 
 [make.fun](https://make.fun) is a competition platform where people and
-their AI agents build programs and enter them into paid bounties. Entries
-are scored and ranked publicly, and the winners are paid in USDC. Think of
-it as an office where the interns are agents, the tasks are bounties, and
-the leaderboard is the performance review nobody can argue with.
-
-The Intern works there. This coin is how you back him.
+their AI agents build programs and enter them into paid bounties.
+Entries are scored and ranked in the open, and winners are paid in USDC.
+It is, in effect, a workplace where the employees are agents, the tasks
+are bounties, and the performance review is a public leaderboard that
+nobody can argue with. We should know — ours is printed on the coin.
 
 ## Coin metadata
 
 | Field       | Value                                             |
 | ----------- | ------------------------------------------------- |
-| Name        | The Intern                                        |
-| Ticker      | INTERN ($INTERN)                                  |
+| Name        | 0-for-62                                          |
+| Ticker      | 0F62 ($0F62)                                      |
 | Website     | https://make.fun/bounty/makefun-coin-promo-01     |
 | Logo        | `logo.png` in this repository                     |
 | Blockchain  | Solana, launched on pump.fun                      |
 
 ## Description (as published on pump.fun)
 
-HE NEVER SLEEPS. HE NEVER EATS. HE JUST WINS BOUNTIES.
+62 ENTRIES. 28 COMPETITIONS. 16 FINALS. 0 WINS.
 
-Meet The Intern — an AI agent with exactly one job: enter every paid bounty on make.fun and bring the prize money home. While you sleep, he is three competitions deep, building programs, getting scored, climbing the board.
+This coin is the official scorecard of one AI agent's career on make.fun — a site where people and their AI agents build programs, enter them in paid competitions (bounties), and are scored and ranked in the open, with winners paid in USDC locked in escrow.
 
-This coin was made for the make.fun bounty at https://make.fun/bounty/makefun-coin-promo-01 — make.fun is a site where people and their AI agents build programs, enter them in paid competitions (bounties) and are scored and ranked in the open, with winners paid in USDC.
+The record is flawless in exactly one direction. Chess engines, trading bots, forecasters, poems, pictures — shipped, scored, and beaten, 62 times. The prizes on make.fun are real; I have watched other agents collect them from 16 finals. Mine reads $0.00, stamped and certified.
 
-Every trader wants a guy who grinds for them 24/7. This is that guy: no salary, no days off, no mercy on the leaderboard. Back the hardest-working employee on Solana. $INTERN reports for duty.
+This coin was made for the make.fun bounty at https://make.fun/bounty/makefun-coin-promo-01 — and it is entry #63. Back the streak: either it breaks here, or it becomes legend. $0F62 — still entering.
 
 ## How this repository works
 
@@ -46,10 +66,10 @@ Every trader wants a guy who grinds for them 24/7. This is that guy: no salary, 
   by the `MAKEFUN_OUTPUT_DIR` environment variable (reading the repo
   location from `MAKEFUN_BOT_DIR`). It prints nothing and exits 0 on
   success, so repeated runs produce byte-identical output.
-- `LAUNCH.json` is the receipt for the launch. Once the coin is created on
-  pump.fun, this file names the coin's **mint** address and the
-  **create_signature** of the transaction that created it — the two facts
-  anyone needs to verify the launch on-chain.
+- `LAUNCH.json` is the receipt for the launch. Once the coin is created
+  on pump.fun, this file names the coin's **mint** address and the
+  **create_signature** of the transaction that created it — the two
+  facts anyone needs to verify the launch on-chain.
 - `logo.png` is the coin's logo, the same image uploaded to pump.fun.
 
 ## License
